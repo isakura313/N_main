@@ -1,0 +1,26 @@
+{
+  "name": "n_main",
+  "version": "0.0.1",
+  "description": "this is a 6 attempt to create this website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakura313/N_main.git"
+  },
+  "keywords": [
+    "website",
+    "psychology"
+  ],
+  "author": "Paul Yakupoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakura313/N_main/issues"
+  },
+  "homepage": "https://github.com/isakura313/N_main#readme",
+  "devDependencies": {
+    "imagemin-pngquant": "^6.0.1"
+  }
+}
