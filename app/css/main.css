@@ -1,4 +1,14 @@
-@font-face{
+
+textarea, input {
+    padding:10px;
+      font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+  }
+
+
+  @font-face{
     font-family:"Vogue";
     src: url(../fonts/Vogue.otf)
 }
