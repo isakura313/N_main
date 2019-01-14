@@ -2,29 +2,21 @@
     background: rgba(207, 160, 138, 0.9);
     color: white;
 }
-.wrap_footer_head{
-    justify-content: center;
-    width: 100vw;
-}
-.wrap_footer_head_h3, .wrap_footer_head_span{
+.wrap_footer_head_h3, .wrap_footer_head_h5{
     font-family: 'Vogue', 'Arial', sans-serif;
     text-align: center;
-    
 }
 .wrap_footer_head_h3{
-    font-size: 45px;
+    font-size: 40px;
     letter-spacing: 1.3px;
     padding-top: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
-    
-    
 }
-.wrap_footer_head_span{
-    font-size: 30px;
+.wrap_footer_head_h5{
+    font-size: 27px;
     margin-top: 37px;
     letter-spacing: 0.9px;
-    
 }
 .form_wrap{
     display: flex;
@@ -35,16 +27,18 @@
     display: flex;
 }
 .form_first_group{
-    width: 100%;
+    width: 35vh;
     display: flex;
     flex-flow: column nowrap;
     padding-right: 40px;
 }
 .form_first_group input{
-    margin-bottom: 20px;
+    margin-bottom: 26px;
     border-radius: 3px;
     outline: none;
     box-shadow: 4px 3px 3px rgba(0,0,0,0.6);
+    font-size: 19px;
+    border:1px solid rgba(112, 112, 112, alpha)
 }
 .form_first_group input::placeholder{
     color: rgba(25, 25, 25, 0.6);
@@ -53,7 +47,11 @@
     display: flex;
     align-items: flex-end;
     flex-flow: column wrap; 
-
+}
+.form_wrap_text_wrap textarea{
+    /* padding-bottom: 5px; */
+    font-size: 19px;
+    outline: none;   
 }
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
@@ -63,6 +61,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 .footer_low_wrapper{
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .social_icons{
     display: flex;
@@ -76,7 +75,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     font-family: 'Helvetica neue', "Times New Roman", serif;
 }
 .text_right{
-    font-size: 20px;
+    font-size: 18px;
     align-self:flex-end;
     margin-left: 33px;
+    font-family: "Helvectica neue", Arial, sens-serif;
 }

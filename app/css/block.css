@@ -1,0 +1,44 @@
+.wrapper_intro{
+    background: rgba(207, 160, 138, 0.9);
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 42px;
+    padding-top: 42px;
+}
+.wrapper_intro__text{
+    width: 90vw;
+}
+
+.wrapper_about_me{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background: rgb(247, 247, 247);
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.wrapper_about_me__ava{
+    padding-top: 95px;
+}
+
+.wrapper_about_me__text{
+    padding-top: 55px;
+    width: 50vw;
+    font-size: 22px;
+    font-family: 'Helvectica neue', 'Times New Roman', sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+}
+
+.wrapper_reasons_to_me__card{
+    display: flex;
+    flex-flow: column wrap;
+}
+.wrapper_reasons_to_me_wrap{
+    display: flex;
+}

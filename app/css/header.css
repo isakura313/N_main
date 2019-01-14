@@ -1,0 +1,36 @@
+.logo_header{
+    text-align: center;
+}
+.logo_header a {
+    text-decoration: none;
+    color: black;
+    font-family: Vogue, "Times New Roman", sans-serif;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+}
+.logo_header h5{
+    font-family: Vogue, "Times New Roman", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgba(207, 160, 138, 0.9);
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.navigation ul li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+}
