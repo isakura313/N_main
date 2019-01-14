@@ -35,10 +35,44 @@
     line-height: 30px;
 }
 
-.wrapper_reasons_to_me__card{
-    display: flex;
-    flex-flow: column wrap;
+
+.wrapper_reasons_to_me__h2{
+    padding-top: 35px;
+    color:rgb(207, 160, 138, 0.9);
+    text-align: center;
+    letter-spacing: 0.7px;
+    font-family: Vogue, "Times New Roman", sans-serif;
+    padding-bottom: 60px;
+}
+.wrapper_reasons_to_me{
+    font-family: "Helvectica neue", "Times New Roman", sans-serif;
+    font-size: 22px;
 }
 .wrapper_reasons_to_me_wrap{
     display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+}
+
+.wrapper_reasons_to_me__card{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+.wrapper_reasons_to_me__wrap{
+    display: flex;
+}
+.wrapper_reasons_to_me_text{
+    padding-top: 40px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.wrapper_reasons_to_me_text p{
+    width: 25vw;
 }
