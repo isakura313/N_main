@@ -31,7 +31,7 @@
     display: flex;
     flex-flow: column nowrap;
     margin-right: 40px;
-    height: 50vh;
+    height: 35vh;
     align-items: space-around;
 }
 .form_first_group input{
@@ -52,7 +52,7 @@
     flex-flow: column wrap; 
 }
 .form_wrap_text_wrap textarea{
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     font-size: 19px;
     outline: none;   
 }
