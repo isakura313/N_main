@@ -23,11 +23,16 @@
     padding-left: 50px;
 }
 .wrapper_about_me__ava{
-    padding-top: 95px;
+    padding-top: 9%;
+}
+.wrapper_about_me__ava img{
+    width: 80%;
+    height: auto;
+    padding-left: 5%;
 }
 
 .wrapper_about_me__text{
-    padding-top: 55px;
+    padding-top: 3%;
     width: 50vw;
     font-size: 22px;
     font-family: 'Helvectica neue', 'Times New Roman', sans-serif;
@@ -60,6 +65,9 @@
     display: flex;
     flex-flow: column wrap;
     text-align: center;
+}
+ img{
+    width: 100%;
 }
 .wrapper_reasons_to_me__wrap{
     display: flex;

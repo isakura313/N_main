@@ -93,8 +93,7 @@
 
 
 
-
-
+<!-- здесь индивидуальная часть сайта заканчивается -->
 
 
 <footer class="footer">
@@ -105,12 +104,12 @@
  <div class="form_wrap">
   <form action="index.php" method="post">
     <div class="form_first_group">
-      <input type="text" name="name" placeholder="&#xf007; Ваше имя" required>
-      <input type="email" name="email" placeholder="&#xf0e0;   Ваша почта" required>
-      <input type="tel" name="telephone" placeholder="&#xf095;    Ваш номер" required>
+      <input type="text" name="name"  maxlength="15" placeholder="&#xf007; Ваше имя" required>
+      <input type="email" name="email" maxlength="30" placeholder="&#xf0e0;   Ваша почта" required>
+      <input type="tel" name="telephone" maxlength="15" placeholder="&#xf095;    Ваш номер" required>
     </div>
     <div class="form_wrap_text_wrap">
-        <textarea name="purpouse" id="texta" cols="50" rows="8" placeholder="Тема обращения" required></textarea>
+        <textarea name="message" id="texta" cols="50" rows="8" placeholder="Тема обращения" required></textarea>
         <input type="submit" value="отправить">
     </div>
   </form>
