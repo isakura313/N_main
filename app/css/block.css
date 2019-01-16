@@ -1,17 +1,22 @@
 .wrapper_intro{
-    background: rgba(207, 160, 138, 0.9);
+    /* background: rgba(172, 133, 114, 0.9); */
+    background: #CFA08A;
     color: rgba(255, 255, 255, 1);
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 42px;
-    padding-top: 42px;
+    padding-top: 30px;
 }
 .wrapper_intro__text{
     width: 90vw;
+}
+.wrapper_intro img{
+    width: 70%;
+    height: auto;
 }
 .wrapper_about_me{
     display: flex;

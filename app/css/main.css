@@ -12,3 +12,7 @@ textarea, input {
     font-family:"Vogue";
     src: url(../fonts/Vogue.otf)
 }
+  @font-face{
+    font-family:"VogueHigh";
+    src: url(../fonts/VogueHigh.otf)
+}
