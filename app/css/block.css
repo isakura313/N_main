@@ -1,14 +1,15 @@
 .wrapper_intro{
     background: #CFA08A;
     color: rgba(255, 255, 255, 1);
-    font-size: 25px;
+    font-size: 23px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 42px;
-    padding-top: 30px;
+    /* padding-bottom: 22px;
+    padding-top: 30px; */
+    height: 77vh;
 }
 .wrapper_intro__text{
     width: 90vw;
@@ -21,7 +22,7 @@
 .wrapper_about_me{
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
     background: rgb(247, 247, 247);
     padding-bottom: 50px;
     padding-left: 50px;
@@ -32,12 +33,12 @@
 .wrapper_about_me__ava img{
     width: 80%;
     height: auto;
-    padding-left: 5%;
+    /* padding-left: 5%; */
 }
 .wrapper_about_me__text{
     padding-top: 3%;
-    width: 50vw;
-    font-size: 22px;
+    width: 40vw;
+    font-size: 19px;
     font-family: 'Helvectica neue', 'Times New Roman', sans-serif;
     letter-spacing: 0.3px;
     line-height: 30px;
@@ -65,9 +66,10 @@
     display: flex;
     flex-flow: column wrap;
     text-align: center;
+
 }
- img{
-    width: 100%;
+.wrapper_reasons_to_me__card img{
+    width: 65%;
 }
 .wrapper_reasons_to_me__wrap{
     display: flex;
