@@ -1,5 +1,5 @@
 .wrapper_intro{
-    background: rgba(255, 255, 255, 0.774);
+    background: rgba(216, 212, 212, 0.774);
     color: rgb(0, 0, 0);
     font-size: 19px;
     justify-content: center;
@@ -34,6 +34,7 @@
 .wrapper_about_me__ava img{
     width: 80%;
     height: auto;
+    /* padding-left: 5%; */
 }
 .wrapper_about_me__text{
     padding-top: 3%;
@@ -45,9 +46,9 @@
 }
 .wrapper_reasons_to_me__h2{
     padding-top: 35px;
-    color:#2b30a3;
+    color:rgb(207, 160, 138, 0.9);
     text-align: center;
-    /* letter-spacing: 1.2px; */
+    letter-spacing: 1.2px;
     font-family: 'Playfair Display', serif;
     padding-bottom: 60px;
     font-size: 30px;

@@ -1,5 +1,5 @@
 .footer{
-    background: #2b30a3;
+    background: rgb(207, 160, 138);
     color: white;
 }
 .wrap_footer_head_h3, .wrap_footer_head_h5{
@@ -18,8 +18,8 @@
     font-size: 1.3em;
     margin-top: 37px;
     letter-spacing: 0.9px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 1.2px;
+    font-family: "Geometrica", sans-serif;
+    letter-spacing: 1.4px;
 }
 .form_wrap{
     display: flex;
@@ -83,7 +83,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     font-family: 'PT serif', sans-serif;
 }
 .text_right{
-    font-size: 14px;
+    font-size: 18px;
     align-self:flex-end;
     margin-left: 33px;
 }

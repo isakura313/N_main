@@ -21,7 +21,7 @@
     font-family: "Geometrica", sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
    
 }
@@ -35,7 +35,7 @@
 
 .navigation a{
     text-decoration: none;
-    color: #2b30a3;
+    color: rgb(207, 160, 138);
     font-size: 1.4em;
     letter-spacing: 1px;
     font-weight: 100;
