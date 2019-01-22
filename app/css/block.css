@@ -96,14 +96,15 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+    font-weight: 100;
 }
 .psy_in_our_life__h3:first-child{
     margin-top:20px;
     margin-bottom:30px;
 }
 .psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
-    padding-left:14%;
-    padding-right:14%;
+    padding-left:13%;
+    padding-right:13%;
 }
 .psy_second_wrapper{
     margin-bottom: 5em;
