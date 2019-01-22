@@ -88,3 +88,41 @@
 .wrapper_reasons_to_me_text p{
     width: 25vw;
 }
+
+/* страница про психотерапию */
+.psy_in_our_life__h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.psy_in_our_life__h3:first-child{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
+    padding-left:14%;
+    padding-right:14%;
+}
+.psy_second_wrapper{
+    margin-bottom: 5em;
+}
+.psy_in_our_life__p{
+    font-size: 19px;
+    font-family: 'PT Serif', serif; 
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    -webkit-font-smoothing:subpixel;
+}
+.psy_in_our_life__p:first-child{
+    text-indent: 30px;
+}
+.psy_third_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+
+/* конец про психотерапию */
