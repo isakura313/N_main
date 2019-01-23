@@ -17,7 +17,6 @@
 }
 .wrapper_intro img{
     width: 70%;
-    height: 70%;
     
 }
 .wrapper_about_me{
@@ -87,6 +86,7 @@
 }
 .wrapper_reasons_to_me_text p{
     width: 25vw;
+
 }
 
 /* страница про психотерапию */
@@ -115,6 +115,8 @@
     line-height: 28px;
     letter-spacing: 0.6px;
     -webkit-font-smoothing:subpixel;
+    margin-bottom: 0px;
+    margin-top: 7px;
 }
 .psy_in_our_life__p:first-child{
     text-indent: 30px;
@@ -127,3 +129,61 @@
 
 
 /* конец про психотерапию */
+
+/* начало части метода */
+.method_wrapper_first, .method_wrapper_second, .method_wrapper_third, .method_wrapper_fourth{
+    padding-left:13%;
+    padding-right:13%;
+}
+.method_wrapper_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.method_wrapper_second__quote{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 60%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: 
+}
+.method_wrapper_second__quote p {
+    margin-top:9px;
+    margin-bottom: 9px;
+    color: #2b30a3;
+    letter-spacing: 0.5px;
+}
+.method_wrapper_fourth{
+    padding-bottom: 4em;
+}
+.method_three_methods{
+    display: flex;
+}
+.method_three_methods__p{
+    font-size: 19px;
+    font-family: 'PT Serif', serif; 
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    -webkit-font-smoothing:subpixel;
+    margin-bottom: 0px;
+    margin-top: 7px;
+
+}
+.method_three_methods__h5{
+    font-family: 'Playfair Display', serif;
+    color: #2b30a3;
+    font-size: 25px;
+    font-weight:200;
+    margin-bottom: 15px;
+}
+.method_three_methods_wrapper{
+    text-align: left;
+}
+.method_wrapper_fourth__h5{
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    color: #2b30a3;
+    font-weight:200;
+}
