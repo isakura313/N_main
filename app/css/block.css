@@ -279,6 +279,57 @@ hr{
     font-weight:200;
 }
 
+
+
+
+
+.method_first__list{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    font-family: 'PT Serif', serif; 
+    font-size: 19px;
+    line-height: 1.5;
+    justify-content: space-around;
+    height: 200px;   
+}
+
+.method_second__list span{
+    margin-left: 1em;
+}    
+
+
+
+
+.method_first__list li:before{
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}
+
+.method_second__list{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'PT Serif', serif; 
+    font-size: 19px;
+    line-height: 1.5;
+    height: 200px;
+    flex-wrap: nowrap;
+}
+.method_second__list li:before{
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}
+
+
+
+
+
+
+
 /* здесь начинаются полезные материалы */
 .depression_wrapper{
     margin-top: 35px;
