@@ -168,6 +168,59 @@ hr{
     -webkit-font-smoothing:subpixel;
 }
 
+.academic_wrapper{
+    padding-left: 12%;
+    padding-right: 7%
+}
+.academic_wrapper h5{
+    font-size: 27px;
+    font-family: "Playfair Display", serif;
+    color: #2b30a3;
+    margin-left: 25px;
+}
+ .base{
+    /* padding-bottom: 35px; */
+    margin-left: 70px;
+    font-size: 23px;
+    font-family: "Playfair Display", serif;
+}
+
+.row_img{
+    display: flex;
+    justify-content: space-between;
+}   
+.row_img__first{
+    display: flex;
+    flex-flow: column wrap;
+    /* text-align: center; */
+    align-items: center;
+    text-align: center;
+    width:90%;
+    font-family: 'PT Serif', serif; 
+    font-size: 20px;
+    line-height: 1.2;
+}
+.row_img__first span{
+    margin-bottom: 10px;
+}
+.row_img__first .row_img_first_mpgu{
+   font-size: 22px;
+   font-weight: 900;
+}
+.row_img__first img{
+    width:90%;
+    padding-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -285,13 +338,14 @@ hr{
 .method_first__list{
     display: flex;
     flex-direction: column;
-    list-style:decimal;
+    list-style-image: url('../img/line.png');
     font-family: 'PT Serif', serif; 
     font-size: 19px;
-    line-height: 1.5;
+    line-height: 2;
     justify-content: space-around;
-    height: 200px;   
-    margin-top: 2em;
+    /* height: 200px;    */
+    /* margin-top: 2em; */
+    /* width: 50%; */
 
 }
 /* 
@@ -303,29 +357,29 @@ hr{
 
 
     .method_first__list li:before{
-        content:  "—";
+        /* content:  "—"; */
         position: relative;
         left:     -5px;
     }
 
 .method_second__list{
-  
-    list-style:none;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    list-style-image: url('../img/line.png');
     font-family: 'PT Serif', serif; 
     font-size: 19px;
     line-height: 1.5;
-    height: 200px;
-    flex-wrap: nowrap;
-    margin-top: 5em;
+    justify-content: space-around;
+    height: 200px;   
+    margin-top: 2em;
+
 }
-/* .method_second__list li:before{
+
+.method_second__list li:before{
     content:  "—";
     position: relative;
     left:     -5px;
-} */
+}
 
 
 
@@ -359,14 +413,12 @@ hr{
     width:80%;
     height: auto;
 }
-.wrapper_symptoms_depression__list{
-    margin-right: 4em;
-}
+
 
 .wrapper_symptoms_anxious, .wrapper_sympotms_panic, .wrapper_symptoms_depression{
     display: flex;
     align-items:flex-end;
-    /* justify-content: centesr; */
+    /* justify-content: center; */
 }
 .wrapper_symptoms_anxious p, .wrapper_sympotms_panic p, .wrapper_symptoms_depression p{
     /* padding-top: 3%; */
