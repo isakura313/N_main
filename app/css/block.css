@@ -170,7 +170,8 @@ hr{
 
 .academic_wrapper{
     padding-left: 12%;
-    padding-right: 7%
+    padding-right: 7%;
+    margin-top: 2em;
 }
 .academic_wrapper h5{
     font-size: 27px;
@@ -183,12 +184,32 @@ hr{
     margin-left: 70px;
     font-size: 23px;
     font-family: "Playfair Display", serif;
+    margin-bottom: 10px;
 }
 
 .row_img{
     display: flex;
     justify-content: space-between;
+    padding-top: 2.5em;
 }   
+.row_img_third{
+    /* width: 100%; */
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row_img__one{
+    margin-top: 75px;
+    flex-flow: column wrap;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+    font-family: 'PT Serif', serif; 
+    font-size: 20px;
+    line-height: 1.2;
+    display: flex;
+}
 .row_img__first{
     display: flex;
     flex-flow: column wrap;
@@ -200,14 +221,18 @@ hr{
     font-size: 20px;
     line-height: 1.2;
 }
-.row_img__first span{
+.row_img__first__span{
     margin-bottom: 10px;
 }
-.row_img__first .row_img_first_mpgu{
+.row_img_first_mpgu{
    font-size: 22px;
    font-weight: 900;
 }
 .row_img__first img{
+    width:90%;
+    padding-bottom: 45px;
+}
+.row_img__one img{
     width:90%;
     padding-bottom: 45px;
 }
