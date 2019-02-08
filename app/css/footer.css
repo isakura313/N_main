@@ -27,8 +27,9 @@
 }
 form{
     display: flex;
+
     justify-content: space-around;
-    width: 100vw;
+    /* width: 100vw; */
 }
 .form_first_group{
     width: 50vh;
@@ -36,7 +37,8 @@ form{
     flex-flow: column nowrap;
     height: 35vh;
     align-items: space-around;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    margin-right: 10%;
 }
 .form_first_group input{
     margin-bottom: 26px;
@@ -59,7 +61,12 @@ form{
     padding-bottom: 15px;
     font-size: 19px;
     outline: none;   
-    width: 180%;
+    width: 200%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
 }
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */

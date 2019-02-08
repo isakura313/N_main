@@ -7,16 +7,27 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 77vh;
+    /* height: 77vh; */
 }
 .wrapper_intro__text{
-    width: 90vw;
+    /* width: 90vw; */
+    /* height: 100vh; */
+    padding-bottom: 1.5em;
+
     font-family: 'PT Serif', serif;
 
 }
-.wrapper_intro img{
-    width: 70%;
-    
+.wrapper_intro__img{
+    /* max-width:70%; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% auto;
+    /* max-height:70%; */
+    /* width: 100%; */
+    height: 70vh; 
+    background-image: url("../img/main_client_and_therapist.png");
+
+
 }
 .wrapper_about_me{
     display: flex;
@@ -181,8 +192,8 @@ hr{
 }
  .base{
     /* padding-bottom: 35px; */
-    margin-left: 70px;
-    font-size: 23px;
+    /* margin-left: 70px; */
+    /* font-size: 23px; */
     font-family: "Playfair Display", serif;
     margin-bottom: 10px;
 }
@@ -242,22 +253,12 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* страница про психотерапию */
 .psy_in_our_life__h3{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-top: 35px;
     font-weight: 100;
     color: black;
     font-family: 'Playfair Display', serif;
@@ -266,10 +267,10 @@ hr{
     -webkit-font-smoothing: 1px;
     font-weight: normal;
 }
-.psy_in_our_life__h3:first-child{
-    margin-top:20px;
-    margin-bottom:30px;
-}
+/* .psy_in_our_life__h3:first-child{
+    margin-top:25px;
+    margin-bottom:25px;
+} */
 .psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
     padding-left: 12%;
     padding-right: 7%;
@@ -345,10 +346,9 @@ hr{
     font-size: 25px;
     font-weight:200;
     margin-bottom: 15px;
+    text-align: center;
 }
-.method_three_methods_wrapper{
-    text-align: left;
-}
+
 .method_wrapper_fourth__h5{
     font-size: 23px;
     font-family: 'Playfair Display', serif;
@@ -358,25 +358,17 @@ hr{
 
 
 
-
-
 .method_first__list{
     display: flex;
     flex-direction: column;
     list-style-image: url('../img/line.png');
     font-family: 'PT Serif', serif; 
     font-size: 19px;
-    line-height: 2;
-    justify-content: space-around;
-    /* height: 200px;    */
-    /* margin-top: 2em; */
-    /* width: 50%; */
+    line-height: 2.2;
+  
 
 }
-/* 
-.method_second__list span{
-    margin-left: 1em;
-}     */
+
 
 
 
@@ -388,7 +380,7 @@ hr{
     }
 
 .method_second__list{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     list-style-image: url('../img/line.png');
     font-family: 'PT Serif', serif; 
@@ -463,7 +455,9 @@ hr{
     margin-top: 20px !important;
 }
 
-
+.wrapper_symptoms_depressin__image{
+    margin-left:5%;
+}
 
 
 
@@ -500,7 +494,6 @@ hr{
     width: 70%;
     padding-left: 3%;
     padding-right: 3%;
-    
 }
  .psy_in_our_life__h5{
     font-family: 'Playfair Display', serif;
@@ -510,6 +503,7 @@ hr{
     margin-top: 15px;
     margin-bottom: 0px;
     padding-bottom: 15px;
+    padding-top: 15px;
  }
  .kont_adress__map{
      display: flex;

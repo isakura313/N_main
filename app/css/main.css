@@ -6,6 +6,9 @@ textarea, input {
       font-weight: normal;
       text-decoration: inherit;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
 
   @font-face{
