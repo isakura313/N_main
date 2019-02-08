@@ -1,3 +1,5 @@
+/* часть с index   */
+
 .wrapper_intro{
     background: rgba(255, 255, 255, 0.774);
     color: rgb(0, 0, 0);
@@ -26,8 +28,6 @@
     /* width: 100%; */
     height: 70vh; 
     background-image: url("../img/main_client_and_therapist.png");
-
-
 }
 .wrapper_about_me{
     display: flex;
@@ -101,6 +101,8 @@
 .wrapper_reasons_to_me_text p{
     width: 25vw;
 }
+
+
 
 /* страница о себе */
 .wrapper_about_me_first{
@@ -191,9 +193,6 @@ hr{
     margin-left: 25px;
 }
  .base{
-    /* padding-bottom: 35px; */
-    /* margin-left: 70px; */
-    /* font-size: 23px; */
     font-family: "Playfair Display", serif;
     margin-bottom: 10px;
 }
@@ -227,7 +226,7 @@ hr{
     /* text-align: center; */
     align-items: center;
     text-align: center;
-    width:90%;
+    width:350px;
     font-family: 'PT Serif', serif; 
     font-size: 20px;
     line-height: 1.2;
@@ -236,7 +235,7 @@ hr{
     margin-bottom: 10px;
 }
 .row_img_first_mpgu{
-   font-size: 22px;
+   font-size: 18px;
    font-weight: 900;
 }
 .row_img__first img{
@@ -267,10 +266,7 @@ hr{
     -webkit-font-smoothing: 1px;
     font-weight: normal;
 }
-/* .psy_in_our_life__h3:first-child{
-    margin-top:25px;
-    margin-bottom:25px;
-} */
+
 .psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
     padding-left: 12%;
     padding-right: 7%;
@@ -369,15 +365,10 @@ hr{
 
 }
 
-
-
-
-
-    .method_first__list li:before{
-        /* content:  "—"; */
-        position: relative;
-        left:     -5px;
-    }
+.method_first__list li:before{
+    position: relative;
+    left:     -5px;
+}
 
 .method_second__list{
     /* display: flex; */
@@ -435,11 +426,16 @@ hr{
 .wrapper_symptoms_anxious, .wrapper_sympotms_panic, .wrapper_symptoms_depression{
     display: flex;
     align-items:flex-end;
-    /* justify-content: center; */
 }
+.wrapper_symptoms_anxious img, .wrapper_sympotms_panic img, .wrapper_symptoms_depression img{
+    height:350px;
+    width: auto;
+}
+
+
+
+
 .wrapper_symptoms_anxious p, .wrapper_sympotms_panic p, .wrapper_symptoms_depression p{
-    /* padding-top: 3%; */
-    /* width: 40vw; */
     font-size: 19px;
     font-family: 'PT Serif', serif; 
     letter-spacing: 0.3px;
@@ -509,8 +505,6 @@ hr{
      display: flex;
  }
  .kont_adress{
-     /* padding-left:7%;
-     padding-right: 7%; */
      padding: 2% 12% 7%;
  }
  .kont_adress__map_wrap{
