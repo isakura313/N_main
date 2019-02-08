@@ -256,8 +256,9 @@ hr{
 .psy_in_our_life__h3{
     font-size: 30px;
     text-align: center;
+    margin: 0;
     margin-bottom: 35px;
-    margin-top: 35px;
+    padding-top: 35px;
     font-weight: 100;
     color: black;
     font-family: 'Playfair Display', serif;
@@ -361,8 +362,6 @@ hr{
     font-family: 'PT Serif', serif; 
     font-size: 19px;
     line-height: 2.2;
-  
-
 }
 
 .method_first__list li:before{
@@ -397,12 +396,12 @@ hr{
 
 /* здесь начинаются полезные материалы */
 .depression_wrapper{
-    margin-top: 35px;
+    /* margin-top: 35px; */
     margin-bottom: 5em;
 }
 .anxious_wrapper{
     background-color: #F7F7F7;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     padding-bottom: 25px;
 }
 .anxious_wrapper, .depression_wrapper, .wrapper_panic{
@@ -417,9 +416,9 @@ hr{
 .wrapper_panic {
     padding-bottom: 55px;
 }
-.anxious_wrapper img, .depression_wrapper img, .wrapper_panic img{
-    width:80%;
-    height: auto;
+.wrapper_sympotms_anxioux__image img, .wrapper_sympotms_panic__image img  .wrapper_symptoms_depressin__image img{
+    height: 24em; 
+    width: auto;
 }
 
 
@@ -464,14 +463,14 @@ hr{
 
 /* здесь начинаются контакты */
 .first_contact{
-    padding: 20px 7% 82px 7%;
+    padding: 0px 7% 82px 7%;
     padding-left:12%;
     padding-right:7%;
 }
 .second_part_one{
     text-align:center;
     background-color: #F7F7F7;
-    padding-top: 35px;
+    /* padding-top: 35px; */
 }
 .second_contact{
     display: flex;
@@ -511,6 +510,9 @@ hr{
     height:70%;
     padding-right: 3%;
  }
+.special_list{
+    width:34em;
+}
  .conts_wrap{
      display: flex;
      margin-top:10px;
