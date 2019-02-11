@@ -1,0 +1,138 @@
+
+
+
+/* страница про психотерапию */
+.psy_in_our_life__h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-top: 35px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    -webkit-font-smoothing: 1px;
+    font-weight: normal;
+}
+
+.psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
+    padding-left: 12%;
+    padding-right: 7%;
+}
+.psy_second_wrapper{
+    margin-bottom: 5em;
+}
+.psy_in_our_life__p{
+    
+    font-size: 20px;
+    font-family: 'PT Serif', serif; 
+    line-height: 27px;
+    /* letter-spacing: 0.8px; */
+    -webkit-font-smoothing:auto;
+    -moz-font-smoothing:auto;
+    /* margin-bottom: 5px; */
+    margin-top: 15px;
+}
+
+.psy_third_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+
+/* конец про психотерапию */
+
+/* начало части метода */
+.method_wrapper_first, .method_wrapper_second, .method_wrapper_third, .method_wrapper_fourth{
+    padding-left: 12%;
+    padding-right: 7%;
+}
+.method_wrapper_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.method_wrapper_second__quote{
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    width: 60%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+
+}
+.method_wrapper_second__quote p {
+    margin-top:9px;
+    margin-bottom: 9px;
+    color: #2b30a3;
+    letter-spacing: 0.5px;
+}
+.method_wrapper_fourth{
+    padding-bottom: 4em;
+}
+.method_three_methods{
+    display: flex;
+}
+.method_three_methods__p{
+    font-size: 19px;
+    font-family: 'PT Serif', serif; 
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    -webkit-font-smoothing:subpixel;
+    margin-bottom: 0px;
+    margin-top: 7px;
+
+}
+.method_three_methods__h5{
+    font-family: 'Playfair Display', serif;
+    color: #2b30a3;
+    font-size: 25px;
+    font-weight:200;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.method_wrapper_fourth__h5{
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    color: #2b30a3;
+    font-weight:200;
+}
+
+
+
+.method_first__list{
+    display: flex;
+    flex-direction: column;
+    list-style-image: url('../img/line.png');
+    font-family: 'PT Serif', serif; 
+    font-size: 19px;
+    line-height: 2.2;
+}
+
+.method_first__list li:before{
+    position: relative;
+    left:     -5px;
+}
+
+.method_second__list{
+    /* display: flex; */
+    flex-direction: column;
+    list-style-image: url('../img/line.png');
+    font-family: 'PT Serif', serif; 
+    font-size: 19px;
+    line-height: 1.5;
+    justify-content: space-around;
+    height: 200px;   
+    margin-top: 2em;
+
+}
+
+.method_second__list li:before{
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}

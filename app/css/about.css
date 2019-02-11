@@ -1,0 +1,140 @@
+
+
+.wrapper_about_me_first{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 7%;
+}
+.wrapper_about_me__h2{
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.academic_information{
+    display: flex;
+    padding-left: 12%;
+    padding-right: 7%;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    align-items: flex-start;
+}
+.academic_infromation_second_column{
+    margin-top: 2em;
+}
+.academic_information_first_column{
+    display: flex;
+    flex-direction:column;
+    margin-right: 5em;
+    text-align: center;
+    width: 110%;
+}
+.academic__h6{
+    letter-spacing: 1.2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color:#2b30a3;
+    margin-top:7px;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.h6_first{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+hr{
+    width: 80%;
+    text-align: left;
+    color:#2b30a3;
+    height: 2px;
+}
+.academic__img img{
+    width: 90%;
+    height: auto;
+}
+.academic__img {
+    padding-bottom: 20px;
+}
+.academic__img:first-child{
+    padding-top: 20px;
+}
+.academic_span{
+    font-weight: bold;
+}
+.academic__p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-family: 'PT Serif', serif; 
+    line-height: 42px;
+    letter-spacing: 0.6px;
+    -webkit-font-smoothing:subpixel;
+}
+
+.academic_wrapper{
+    padding-left: 12%;
+    padding-right: 7%;
+    margin-top: 2em;
+}
+.academic_wrapper h5{
+    font-size: 27px;
+    font-family: "Playfair Display", serif;
+    color: #2b30a3;
+    margin-left: 25px;
+}
+
+
+.row_img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5em;
+}   
+.row_img_third{
+    display: flex;
+    justify-content: flex-start;
+    font-display: column;
+}
+.row_img__the_third{
+    width: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.row_img__one{
+    margin-top: 75px;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'PT Serif', serif; 
+    font-size: 20px;
+    line-height: 1.2;
+    display: flex;
+}
+.row_img__first{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'PT Serif', serif; 
+    font-size: 20px;
+    line-height: 1.2;
+}
+.row_img__first__span{
+    margin-bottom: 10px;
+}
+.row_img_first_mpgu{
+    font-weight: 700;
+}
+
+
+
+.row_img__first img{
+    width:80%;
+    padding-bottom: 45px;
+} 
+.row_img_third img {
+    width: 100%;
+}
