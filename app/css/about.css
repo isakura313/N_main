@@ -122,19 +122,35 @@ hr{
     font-size: 20px;
     line-height: 1.2;
 }
+
 .row_img__first__span{
     margin-bottom: 10px;
+    font-family: 'PT Serif', serif; 
+    font-size: 20px;
+    line-height: 1.2;
 }
 .row_img_first_mpgu{
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 21px;
 }
 
 
 
 .row_img__first img{
-    width:80%;
+    width: 85%;
+    height: auto;
     padding-bottom: 45px;
 } 
 .row_img_third img {
     width: 100%;
+}
+.row_img_second:last-child{
+    width: 67%;
+    margin-bottom: 6em;
+}
+
+.fsp img{
+    width: auto;
+    height: 290px;
+    padding-bottom: 45px;
 }

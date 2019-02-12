@@ -23,3 +23,7 @@ textarea, input {
     font-family:"Geometrica";
     src: url(../fonts/GeometricaSans-Regular.ttf)
 }
+.mfp-img{
+  width: auto  !important;
+  height: 60em !important;
+}

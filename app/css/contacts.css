@@ -1,0 +1,85 @@
+
+
+/* здесь начинаются контакты */
+.first_contact{
+    padding: 0px 7% 82px 7%;
+    padding-left:12%;
+    padding-right:7%;
+}
+.second_part_one{
+    text-align:center;
+    background-color: #F7F7F7;
+    /* padding-top: 35px; */
+}
+.second_contact{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #F7F7F7;
+    padding-bottom: 55px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.second_contact__img img{
+    width: 90%;
+    height: auto;
+}
+.second_part_second{
+    width: 70%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+ .psy_in_our_life__h5{
+    font-family: 'Playfair Display', serif;
+    color: #2b30a3;
+    font-size: 25px;
+    font-weight:200;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+ }
+ .kont_adress__map{
+     display: flex;
+ }
+ .kont_adress{
+     padding: 2% 12% 7%;
+ }
+ .kont_adress__map_wrap{
+    height:70%;
+    padding-right: 3%;
+ }
+.special_list{
+    width:34em;
+}
+.conts{
+    margin-top:18% ;
+}
+ .conts_wrap{
+     display: flex;
+     margin-top:10px;
+     font-size: 19px;
+     font-family: 'PT Serif', serif; 
+     line-height: 28px;
+     letter-spacing: 0.6px;
+ }
+ .conts_wrap span{
+     display: inline;
+     font-weight: bold;
+ }
+ .conts__p{
+   margin:0 0 0 10px;
+   
+ }
+ .kont_adress__map_wrap iframe{
+    margin-top: 2em;
+ }
+ .kont_adress__h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight:200;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+ }
