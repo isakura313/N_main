@@ -12,9 +12,10 @@
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.4px;
     -webkit-font-smoothing: 1px;
     font-weight: normal;
+    
 }
 
 .psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
@@ -25,10 +26,10 @@
     margin-bottom: 5em;
 }
 .psy_in_our_life__p{
-    
     font-size: 20px;
     font-family: 'PT Serif', serif; 
-    line-height: 27px;
+    line-height: 29px;
+    letter-spacing: auto;
     /* letter-spacing: 0.8px; */
     -webkit-font-smoothing:auto;
     -moz-font-smoothing:auto;

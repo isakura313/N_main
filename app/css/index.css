@@ -32,9 +32,10 @@
     background: rgb(247, 247, 247);
     padding-bottom: 50px;
     padding-left: 50px;
+    
 }
 .wrapper_about_me__ava{
-    padding-top: 5%;
+    align-self: center;
 }
 .wrapper_about_me__ava img{
     width: 80%;

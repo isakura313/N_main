@@ -1,0 +1,21 @@
+@media  only screen and (max-width:910px){
+    .navigation ul{
+        flex-direction: column !important;
+    }
+    .navigation ul li{
+        text-align: center;
+    }
+    .wrapper_about_me{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper_about_me__text{
+        width: auto;
+    }
+    .wrapper_reasons_to_me_wrap{
+        flex-direction: column;
+    }
+    form{
+        flex-direction: column;
+    }
+}
