@@ -1,0 +1,28 @@
+.main_form{
+    margin: 0 6em;
+    
+}
+footer{
+    background-color: hsl(204, 86%, 53%);
+    margin-top: 2.5em;
+}
+.wrap_footer_head {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.button{
+    margin-top: 15px;
+}
+.input_first{
+    padding-bottom: 2.47em;
+}
+.footer_low_wrapper {
+    margin-top: 2.5em;
+}
+.text_right{
+    margin-left: 0.3em;
+}
+.social_icons {
+    justify-content: space-around;
+    display: flex;
+}

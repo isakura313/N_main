@@ -3,14 +3,29 @@
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 30em  
+    height: 30em;
+    animation-name: bdSlowIn;
+    animation-duration: 1s;
 }
 .wrapper_intro{
     text-align: center;
+    
 
+}
+.wrapper_intro__text{
+    padding: 2em 0;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
 }
 .wrapper_about_me{
     align-items: center;
+    background: rgb(247, 247, 247);
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.wrapper_about_me p{
+    margin-top: 10px;
 }
 /* .wrapper_about_me__text {
     margin-right: 10em;
@@ -20,10 +35,11 @@
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 400px;
-    height: 400px;
-    animation-name: bdSlowIn;
-    animation-duration: 1s;
+    width: 420px;
+    height: 420px;
+    justify-content: center;
+    /* margin-left: 10%; */
+    size: 100%;
 }
 .wrapper_reasons_to_me__h2 {
     font-size: 30px;
@@ -32,13 +48,22 @@
 }
 .dark{
     background-image:url("../img/main_dark_thoughts.png");
+    animation-name: anim;
+    animation-duration: 0.3s;
+    transition: all 0.3s;
     
 }
 .main_couple{
     background-image: url("../img/main_couple.png");
+    animation-name: anim;
+    animation-duration: 0.6s;
+    transition: all 0.6s;
 }
 .main_girls{
     background-image: url("../img/main_girls.png");
+    animation-name: anim;
+    animation-duration: 0.9s;
+    transition: all 0.9s;
 }
 .card_img{
     background-size:contain;
@@ -47,12 +72,12 @@
     height: 20em;
 }
 .wrapper_about_me{
-    margin: 5em;
+    padding: 5em;
     margin-bottom: 5em;
 }
 .wrapper_reasons_to_me {
-    margin: 1em 2em;
-    padding: 2em 0;
+    margin: 0em 2em 0 2em;
+    padding: 0 2em 0 2em;
 }
 .wrapper_reasons_to_me_text {
     padding-bottom: 50px;
@@ -61,20 +86,12 @@
     text-align: center;
     margin-top: 2.5em;
 }
-.main_form{
-    margin: 0 6em;
-    
+.wrapper_reasons_to_me_text__p div{
+    margin-bottom: 3px;
+    line-height: 1.8;
 }
-footer{
-    background-color: hsl(204, 86%, 53%);
-}
-.wrap_footer_head {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-.input_first{
-    padding-bottom: 2em;
-}
-.text_right{
-    margin-left: 0.3em;
+
+@keyframes anim{
+    0%{opacity: 0;}
+    100% {opacity: 1;}
 }
