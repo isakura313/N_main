@@ -9,6 +9,9 @@
     text-align: center;
 
 }
+.wrapper_about_me{
+    align-items: center;
+}
 /* .wrapper_about_me__text {
     margin-right: 10em;
 } */
