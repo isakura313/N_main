@@ -27,3 +27,6 @@ textarea, input {
   width: auto  !important;
   height: 60em !important;
 }
+.centr{
+  text-align: center;
+}

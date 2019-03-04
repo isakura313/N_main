@@ -43,7 +43,10 @@
      display: flex;
  }
  .kont_adress{
-     padding: 2% 12% 7%;
+     padding: 4% 7% 7%;
+ }
+ .kont_adress__map__text{
+     margin-top: 1.2%;
  }
  .kont_adress__map_wrap{
     height:70%;
