@@ -23,14 +23,3 @@
     color:#2b30a3;
     font-size: 1.5em;
 }
-.wrapper_intro__img{
-    background-image: url('../img/main_client_and_therapist.png');
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 400px;
-    
-}
-.wrapper_intro{
-    text-align: center;
-}

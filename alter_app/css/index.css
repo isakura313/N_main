@@ -1,0 +1,40 @@
+.wrapper_intro__img{
+    background-image: url('../img/main_client_and_therapist.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30em  
+}
+.wrapper_intro{
+    text-align: center;
+
+}
+.wrapper_about_me__text {
+    margin-right: 10em;
+}
+.wrapper_about_me__ava{
+    background-image: url('../img/main_ava.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 400px;
+}
+.dark{
+    background-image:url("../img/main_dark_thoughts.png");
+}
+.main_couple{
+    background-image: url("../img/main_couple.png");
+}
+.main_girls{
+    background-image: url("../img/main_girls.png");
+}
+.card_img{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+}
+.wrapper_about_me{
+    margin: 5em;
+    margin-bottom: 5em;
+}
