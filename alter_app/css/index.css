@@ -9,9 +9,9 @@
     text-align: center;
 
 }
-.wrapper_about_me__text {
+/* .wrapper_about_me__text {
     margin-right: 10em;
-}
+} */
 .wrapper_about_me__ava{
     background-image: url('../img/main_ava.png');
     background-size:contain;
@@ -37,4 +37,7 @@
 .wrapper_about_me{
     margin: 5em;
     margin-bottom: 5em;
+}
+.wrapper_reasons_to_me_text{
+    margin: 0 2em;
 }
