@@ -38,6 +38,9 @@
     margin: 5em;
     margin-bottom: 5em;
 }
-.wrapper_reasons_to_me_text{
+.wrapper_reasons_to_me ,.wrapper_reasons_to_me_text{
     margin: 0 2em;
+}
+.wrapper_reasons_to_me_text__p{
+    text-align: center;
 }
