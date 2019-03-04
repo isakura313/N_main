@@ -18,9 +18,18 @@
     background-repeat: no-repeat;
     background-position: center center;
     width: 400px;
+    height: 400px;
+    animation-name: bdSlowIn;
+    animation-duration: 1s;
+}
+.wrapper_reasons_to_me__h2 {
+    font-size: 30px;
+    color:black;
+    margin: 2em 0;
 }
 .dark{
     background-image:url("../img/main_dark_thoughts.png");
+    
 }
 .main_couple{
     background-image: url("../img/main_couple.png");
@@ -38,9 +47,31 @@
     margin: 5em;
     margin-bottom: 5em;
 }
-.wrapper_reasons_to_me ,.wrapper_reasons_to_me_text{
-    margin: 0 2em;
+.wrapper_reasons_to_me {
+    margin: 1em 2em;
+    padding: 2em 0;
+}
+.wrapper_reasons_to_me_text {
+    padding-bottom: 50px;
 }
 .wrapper_reasons_to_me_text__p{
     text-align: center;
+    margin-top: 2.5em;
+}
+.main_form{
+    margin: 0 6em;
+    
+}
+footer{
+    background-color: hsl(204, 86%, 53%);
+}
+.wrap_footer_head {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.input_first{
+    padding-bottom: 2em;
+}
+.text_right{
+    margin-left: 0.3em;
 }
