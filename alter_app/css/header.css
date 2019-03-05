@@ -15,9 +15,12 @@
     font-size:1.2em;
     margin-top: 0.4em;
 }
-.navigation{
+.wrapper_nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+.navigation{
+    
 }
 .navbar-item{
     color:#2b30a3;

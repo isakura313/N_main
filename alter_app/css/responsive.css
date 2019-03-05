@@ -1,0 +1,11 @@
+@media  screen and  (max-width: 1080px){
+    .wrapper_nav{
+        display: block;
+    }
+    .wrapper_about_me__ava {
+        width:100%;
+    }
+    .wrapper_about_me {
+        padding: 2em 1em;
+    }
+}
