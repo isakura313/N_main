@@ -1,0 +1,27 @@
+
+.psy_first_wrapper{
+    padding: 2em 5em 1em 5em;
+}
+.psy_second_wrapper{
+    padding: 1em 5em 1em 5em;
+}
+.psy_in_our_life__h3 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 16px;
+}
+
+
+.psy_in_our_life__p{
+    font-family: "PT Serif", sans-serif;
+    margin-top: 1.2em;
+    /* line-height: 1.6; */
+}
+.psy_third_wrapper{
+    background-image: url('../img/psychoterapy_client_and_psychologist.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-style: contain;
+    height: 35rem;
+    margin: 3em auto;
+}

@@ -1,6 +1,7 @@
 .logo_header {
     text-align: center;
     margin-top: 2em;
+    padding: ;
 }
 
 .logo_header__a {
@@ -13,15 +14,13 @@
 
 .logo_header__h1 {
     font-size:1.2em;
-    margin-top: 0.4em;
+    margin-top: 1em;
 }
 .wrapper_nav{
     display: flex;
     justify-content: center;
 }
-.navigation{
-    
-}
+
 .navbar-item{
     color:#2b30a3;
     font-size: 1.5em;

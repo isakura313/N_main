@@ -28,26 +28,26 @@
     </div>
     <!-- здесь начинается навигация -->
     <div class="wrapper_nav">
-            <nav class="navigation navbar " role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                        data-target="psy_nav">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>
-    
-    
-                <div id="psy_nav" class="navbar-menu" >
-                   
+        <nav class="navigation navbar " role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="psy_nav">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+
+            <div id="psy_nav" class="navbar-menu">
+
                 <a href="about.html" class="navbar-item">
                     oбо мне
                 </a>
                 <a href="psychotherapy.html" class="navbar-item">
                     о психотерапии
                 </a>
-    
+
                 <a href="method.html" class="navbar-item">
                     о подходе
                 </a>
@@ -58,9 +58,9 @@
                     контакты
                 </a>
             </div>
-            </div>
-            </nav>
-        </div>
+    </div>
+    </nav>
+    </div>
 
 
 
@@ -70,7 +70,7 @@
         <div class="column">
             <div class="wrapper_intro__img">
             </div>
-            <div class="wrapper_intro__text">
+            <div class="wrapper_intro__text is-size-4">
                 <p>Добрый день, я Наталья Чижикова, клинический психолог, психолог-консультант и психотерапевт. </p>
                 <p>Рада приветствовать вас на моем сайте, вместе мы сможем найти причину вашей проблемы, а главное –
                     решить
@@ -82,7 +82,7 @@
         <div class="wrapper_about_me__ava column">
             <!-- <img src="img/main_ava.png" alt="фотография Натальи Чижиковой психолог"> -->
         </div>
-        <div class="wrapper_about_me__text column">
+        <div class="wrapper_about_me__text is-size-5 column">
             <p>Я получила двойное психологическое образование: степень
                 специалиста по направлению «Клиническая психология» в РНИМУ им.
                 Н. И. Пирогова и степень бакалавра психологии по направлению
@@ -135,6 +135,10 @@
         </div>
 
     </div>
+
+<!-- здесь заканчивается меняющийся контент -->
+
+
     <footer>
         <div class="wrap_footer_head column is-full">
             <h3 class="wrap_footer_head_h3 title has-text-centered">Форма обратной связи</h3>
@@ -144,32 +148,34 @@
         <div class="columns main_form">
             <div class="column is-1"></div>
             <div class="field column  is-5">
-                <div class="control has-icons-left input_first">
-                    <input class="input" type="text" placeholder="Ваше имя" maxlength="15" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
-                </div>
-                <div class="control has-icons-left input_first">
-                    <input class="input" type="text" placeholder="Ваша почта" maxlength="30" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                </div>
-                <div class="control has-icons-left input_first">
-                    <input class="input" type="text" placeholder="Ваш телефон" maxlength="15" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-mobile-alt"></i>
-                    </span>
-                </div>
+                <form action="index.php" method="GET">
+                    <div class="control has-icons-left input_first">
+                        <input class="input is-medium" type="text" placeholder="Ваше имя" maxlength="15" required>
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </div>
+                    <div class="control has-icons-left input_first">
+                        <input class="input is-medium" type="text" placeholder="Ваша почта" maxlength="30" required>
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </div>
+                    <div class="control has-icons-left input_first">
+                        <input class="input is-medium" type="text" placeholder="Ваш телефон" maxlength="15" required>
+                        <span class="icon is-small is-left ">
+                            <i class="fas fa-mobile-alt"></i>
+                        </span>
+                    </div>
             </div>
             <!-- <div class="is-one-fifth column"></div> -->
             <div class="column is-5 ">
-                <textarea class="textarea" name="message" id="texta" rows="7" cols="40" placeholder="Тема обращения"
-                    required></textarea>
-                <a class="button is-primary is-pulled-right">
-                    Отправить
-                </a>
+                <textarea class="textarea is-medium" name="message" id="texta" rows="6" cols="40"
+                    placeholder="Тема обращения" required></textarea>
+                <input type="submit" class="button is-primary is-pulled-right" value="Отправить">
+
+
+                </form>
             </div>
         </div>
 

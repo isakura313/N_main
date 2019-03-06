@@ -1,36 +1,40 @@
-.wrapper_intro{
+.wrapper_intro {
     text-align: center;
 }
-.wrapper_intro__img{
+
+.wrapper_intro__img {
     background-image: url('../img/main_client_and_therapist.png');
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     height: 30em;
     animation-name: bdSlowIn;
     animation-duration: 1s;
 }
-.wrapper_intro__text{
+
+.wrapper_intro__text {
     padding: 2em 0;
-    font-size: 20px;
     font-family: 'PT Serif', serif;
 }
-.wrapper_about_me{
+
+.wrapper_about_me {
     align-items: center;
     background: rgb(247, 247, 247);
     font-family: 'PT Serif', serif;
-    font-size: 17px;
     line-height: 1.5;
 }
-.wrapper_about_me p{
+
+.wrapper_about_me p {
     margin-top: 10px;
 }
+
 /* .wrapper_about_me__text {
     margin-right: 10em;
 } */
-.wrapper_about_me__ava{
+
+.wrapper_about_me__ava {
     background-image: url('../img/main_ava.png');
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     width: 420px;
@@ -39,57 +43,70 @@
     /* margin-left: 10%; */
     size: 100%;
 }
+
 .wrapper_reasons_to_me__h2 {
     font-size: 30px;
-    color:black;
+    color: black;
     margin: 2em 0;
 }
-.dark{
-    background-image:url("../img/main_dark_thoughts.png");
+
+.dark {
+    background-image: url("../img/main_dark_thoughts.png");
     animation-name: anim;
     animation-duration: 0.3s;
     transition: all 0.3s;
-    
 }
-.main_couple{
+
+.main_couple {
     background-image: url("../img/main_couple.png");
     animation-name: anim;
     animation-duration: 0.6s;
     transition: all 0.6s;
 }
-.main_girls{
+
+.main_girls {
     background-image: url("../img/main_girls.png");
     animation-name: anim;
     animation-duration: 0.9s;
     transition: all 0.9s;
 }
-.card_img{
-    background-size:contain;
+
+.card_img {
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     height: 20em;
 }
-.wrapper_about_me{
+
+.wrapper_about_me {
     padding: 5em;
     margin-bottom: 5em;
 }
+
 .wrapper_reasons_to_me {
     margin: 0em 2em 0 2em;
-    padding: 0 2em 0 2em;
+    padding: 1em 2em 1em 2em;
 }
+
 .wrapper_reasons_to_me_text {
     padding-bottom: 50px;
 }
-.wrapper_reasons_to_me_text__p{
+
+.wrapper_reasons_to_me_text__p {
     text-align: center;
     margin-top: 2.5em;
 }
-.wrapper_reasons_to_me_text__p div{
+
+.wrapper_reasons_to_me_text__p div {
     margin-bottom: 3px;
     line-height: 1.8;
 }
 
-@keyframes anim{
-    0%{opacity: 0;}
-    100% {opacity: 1;}
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
