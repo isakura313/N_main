@@ -1,0 +1,37 @@
+.method_wrapper_first, .method_wrapper_third, .method_wrapper_fourth,.wrapper_method_fifth {
+    padding: 2em 5em 1em 5em;
+}
+.method_wrapper_second__quote {
+    text-align: center;
+    color: hsl(217, 71%, 53%);
+}
+.method_wrapper_fourth{
+    align-items: flex-start;
+}
+.method_three_methods__h5 {
+    text-align: center;
+    color: hsl(217, 71%, 53%);
+    padding-bottom: 1.5em;
+}
+.method_wrapper_fourth__h5 {
+    color: hsl(217, 71%, 53%);
+    padding-bottom: 1.5em;
+}
+.method_three_methods{
+    background-image: url('../img/about_method_.png');
+    height: 400px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+ul li{
+    list-style-image: url("../img/line.png")
+}
+ul{
+ padding-left: 20px;
+
+}
+.wrapper_method_fifth {
+    padding-bottom: 5em;
+}
