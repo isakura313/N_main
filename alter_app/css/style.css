@@ -6,3 +6,9 @@
 @import "psycho.css";
 @import "material.css";
 @import "method.css";
+@import "material.css";
+
+
+html{
+    scroll-behavior: smooth;
+}

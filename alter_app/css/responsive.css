@@ -8,6 +8,19 @@
     .wrapper_about_me {
         padding: 2em 1em;
     }
+    .wrapper_reasons_to_me__h2 {
+        margin:0;
+        padding: 0;
+    }
+    .wrapper_reasons_to_me{
+        margin: 0em 1em;
+        padding: 0;
+    }
+    .main_form{
+        margin: 0;
+        padding-left: 0;
+        
+    }
 }
 
 /* Здесь я попробую написать для больших экранов */
@@ -25,4 +38,5 @@
     input,textarea{
 
     }
+    
 }
