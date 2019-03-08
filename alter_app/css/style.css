@@ -7,8 +7,11 @@
 @import "material.css";
 @import "method.css";
 @import "material.css";
-
+@import "contacts.css";
 
 html{
     scroll-behavior: smooth;
+}
+.centr{
+    text-align: center;
 }
