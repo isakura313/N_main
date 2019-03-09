@@ -1,9 +1,26 @@
-.first_contact{
+.first_contact, .kont_adress, .kont_adress__map {
     margin: 0 5em;
 }
-.first_contact .psy_in_our_life__h5 {
+.first_contact .psy_in_our_life__h5{
     margin: 0.5em 0 1em 0;
 }
  .psy_in_our_life__p__spec{
     padding-top: 1em;
+}
+.second_contact__img  {
+    background-size:contain;
+    background-position:  top center;
+    height: 400px;
+    background-repeat: no-repeat;
+
+}
+.psy_in_our_life__h5_second{
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+.second_contact_lap {
+    background-image: url('../img/Kont_man_laptop.png');
+}
+.second_contact_girl {
+    background-image: url('../img/kont_girl_laptop.png');
 }
