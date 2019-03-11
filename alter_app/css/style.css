@@ -8,6 +8,7 @@
 @import "method.css";
 @import "material.css";
 @import "contacts.css";
+@import "about.css";
 
 html{
     scroll-behavior: smooth;
