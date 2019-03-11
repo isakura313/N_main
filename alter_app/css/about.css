@@ -1,6 +1,47 @@
-.wrapper_about_me_first, .academic_information{
+.wrapper_about_me_first, .academic_information, .academic_wrapper{
     margin:0 5em;
 }
 .academic_information_first_column .academic__img{
     text-align: center;
+}
+.row_img {
+    text-align: center;
+}
+.img_wp{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-bottom: 1em;
+}
+.fr-01{
+    background-image: url('../img/about_diplom_bachelor-min.png') ;
+    
+}
+.fr-02{
+    background-image: url('../img/about_diplom_with_profession.png');
+   
+}
+.fr-03{
+    background-image: url('../img/about_magister.png');
+   
+}
+
+.fr-1{
+    background-image: url('../img/about_diplom_bachelor-min.png');
+}
+.fr-2{
+    background-image: url('../img/about_diplom_with_profession.png');
+}
+.fr-3{
+    background-image: url('../img/about_magister.png');
+}
+.fr-4{
+    background-image: url('../img/od/study_lesson.jpeg');
+}
+.fr-5{
+    background-image: url('../img/od/conf_vigot.jpeg');
+}
+.fr-6{
+    background-image: url('../img/od/lomonosov_2016.jpeg');
 }
