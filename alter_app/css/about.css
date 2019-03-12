@@ -4,15 +4,17 @@
 .academic_information_first_column .academic__img{
     text-align: center;
 }
-.row_img {
+
+.row_img_second{
     text-align: center;
 }
 .img_wp{
     background-size: contain;
     background-position: center center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 350px;
     margin-bottom: 1em;
+    width: 300px;
 }
 .fr-01{
     background-image: url('../img/about_diplom_bachelor-min.png') ;
@@ -44,4 +46,17 @@
 }
 .fr-6{
     background-image: url('../img/od/lomonosov_2016.jpeg');
+}
+
+.fr-7{
+    background-image: url('../img/od/lomonosov_2016.jpeg');
+}
+.fr-8{
+    background-image: url('../img/od/lomosov-2017_sert.jpeg');
+}
+.fr-9{
+    background-image: url('../img/od/school_psyc.jpeg');
+}
+.fr-10{
+    background-image: url('../img/od/rpp.png');
 }
