@@ -9,12 +9,14 @@
     text-align: center;
 }
 .img_wp{
-    background-size: contain;
-    background-position: center center;
-    /* background-repeat: no-repeat; */
-    height: 350px;
+    background-size: cover;
+    background-position: top top;
+    background-repeat: no-repeat;
+    height: 300px;
     margin-bottom: 1em;
-    width: 300px;
+    width: 400px;
+    justify-content: center;
+    border: 2px solid black;    
 }
 .fr-01{
     background-image: url('../img/about_diplom_bachelor-min.png') ;
