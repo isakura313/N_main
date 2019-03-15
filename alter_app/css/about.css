@@ -1,31 +1,48 @@
 .wrapper_about_me_first,
 .academic_information,
 .academic_wrapper {
-    margin: 0 5em;
+    margin: 40px 5em;
 }
+
+.wrapper_about_me_first{
+    
+}
+.psy_in_our_life__h3_spec{
+    margin-top: 48px;
+}
+
 
 .academic_information_first_column .academic__img {
     text-align: center;
 }
+.academic_span{
+    font-weight: 700;
+}
 
-.row_img__first__span,.row_img_first_mpgu{
+.row_img__first__span,
+.row_img_first_mpgu {
     display: block;
 }
-.academic__img{
+
+.academic__img {
     display: flex;
     justify-content: center;
-
 }
-.academic_wrapper_h5{
+
+.academic_wrapper_h5 {
     padding-bottom: 1em;
 }
-.academic__h6 {
+
+.academic__h6_spec {
     padding-bottom: 0.5em;
+    margin-top:  1em;
 }
-.academic_wrapper{
+
+.academic_wrapper {
     margin-top: 5em;
 }
-.row_img__first{
+
+.row_img__first {
     text-align: center;
     display: flex !important;
     flex-flow: column wrap !important;
@@ -44,7 +61,8 @@
     justify-content: center;
     border: 2px solid black;
 }
-.row_img__first__span{
+
+.row_img__first__span {
     display: block;
 }
 

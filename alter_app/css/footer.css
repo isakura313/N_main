@@ -28,11 +28,12 @@ footer{
     margin-top: 2.5em;
 }
 .text_right{
-    margin-left: 0.3em;
+    margin:0 0 7px 15px;
     color: #000;
     font-weight: 200px;
 }
 .social_icons {
     justify-content: space-around;
     display: flex;
+    margin: 0 1em 0 5em;
 }

@@ -3,7 +3,7 @@
 }
 
 .wrapper_intro__img {
-    background-image: url('../img/main_client_and_therapist.png');
+    background-image: url('../img/main_client_and_therapist_1.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -94,7 +94,8 @@
 
 .wrapper_reasons_to_me_text__p {
     text-align: center;
-    margin-top: 2.5em;
+    margin: 2.5em 2em 0 2em;
+
 }
 
 .wrapper_reasons_to_me_text__p div {

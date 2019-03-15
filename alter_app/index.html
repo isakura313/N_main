@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="сайт психолога Натальи Чижиковой">
-    <meta name="keywords"
-        content="Психология, психолог, психолог Москва, психолог по Скайпу, психология отношений, психотерапия, психотерапевт Москва, психотерапевт по Скайпу, когнитивно-поведенческая психотерапия, когнитивно-поведенческий психотерапевт, cbt-терапевт, экзистенциальный психотерапевт, тревога, депрессия, панические атаки, любовная зависимость, клинический психолог, клиническая психология, психологическое консультирование, смысл жизни, ассертивность, фобия, аэрофобия, социофобия, клаустрофобия">
+    <meta name="keywords" content="Психология, психолог, психолог Москва, психолог по Скайпу, психология отношений, психотерапия, психотерапевт Москва, психотерапевт по Скайпу, когнитивно-поведенческая психотерапия, когнитивно-поведенческий психотерапевт, cbt-терапевт, экзистенциальный психотерапевт, тревога, депрессия, панические атаки, любовная зависимость, клинический психолог, клиническая психология, психологическое консультирование, смысл жизни, ассертивность, фобия, аэрофобия, социофобия, клаустрофобия">
     <meta name="author" content="Наталья Чижикова">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,33 +12,32 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js" defer></script>
+    <script src="js/mag.js" defer></script>
     <script src="js/code.js" defer></script>
 </head>
-
 <body>
     <div class="columns">
-        <div class="logo_header column is-full">
+        <div class="logo_header column">
             <a href="index.html" class="logo_header__a">
                 <h2 class="logo_header__h2 is-size-4-desktop">Наталья Чижикова</h2>
             </a>
             <h1 class="logo_header__h1">КЛИНИЧЕСКИЙ ПСИХОЛОГ, ПСИХОЛОГ-КОНСУЛЬТАНТ, ПСИХОТЕРАПЕВТ</h1>
         </div>
     </div>
-    <!-- здесь начинается навигация -->
     <div class="wrapper_nav is-size-4">
-        <nav class="navigation navbar " role="navigation" aria-label="main navigation">
+        <nav class="navigation navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                    data-target="psy_nav">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="psy_nav">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-
-
             <div id="psy_nav" class="navbar-menu ">
-
+                <a href="index.html" class="navbar-item">
+                    главная
+                </a>
                 <a href="about.html" class="navbar-item">
                     oбо мне
                 </a>
@@ -58,11 +55,9 @@
                     контакты
                 </a>
             </div>
+        </nav>
     </div>
-    </nav>
-    </div>
-
-
+    
 
 
     <!-- здесь начинается меняющийся контент -->
@@ -108,7 +103,7 @@
 
         <div class="wrapper_reasons_to_me__card column">
             <div class="card_img dark"></div>
-            <div class=" wrapper_reasons_to_me_text__p">
+            <div class="wrapper_reasons_to_me_text__p">
                 <div>Трудности с построением близких и доверительных отношений; </div>
                 <div>Эмоциональная зависимость; </div>
                 <div>Болезненный разрыв отношений. </div>
@@ -167,7 +162,7 @@
                         </span>
                     </div>
             </div>
-            <!-- <div class="is-one-fifth column"></div> -->
+    
             <div class="column is-5 ">
                 <textarea class="textarea is-medium" name="message" id="texta" rows="6" cols="40"
                     placeholder="Тема обращения" required></textarea>
