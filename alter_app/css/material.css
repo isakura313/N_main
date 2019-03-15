@@ -13,6 +13,9 @@
 .second_nav ul li a{
     color: hsl(0, 0%, 100%);
 }
+.depression_wrapper h3{
+    padding-top: 16px;
+}
 .depression_wrapper, .wrapper_symptoms_depression, .anxious_wrapper, .wrapper_symptoms_anxious,.wrapper_panic,.wrapper_sympotms_panic,.wrapper_anx {
     padding:0 5em;
     background-color: white;
@@ -30,6 +33,8 @@
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
+    animation-name: bdSlowIn;
+    animation-duration: 1s;
 }
 .sympo{
     text-align: center;
@@ -48,6 +53,7 @@
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
+    
 }
 .wrapper_sympotms_panic_spec {
     padding-bottom: 5em;
@@ -58,4 +64,5 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url("../img/useful_material_girl_with_crow.png");
+    
 }

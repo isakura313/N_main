@@ -32,7 +32,9 @@
 .academic_wrapper_h5 {
     padding-bottom: 1em;
 }
-
+.academic__h6  {
+    padding-bottom: 1em;
+}
 .academic__h6_spec {
     padding-bottom: 0.5em;
     margin-top:  1em;
@@ -160,4 +162,7 @@
 
 .fr-21 {
     background-image: url('../img/kpt/kpt_10.jpeg');
+}
+.academic_wrapper_last{
+    padding-bottom: 10em;
 }

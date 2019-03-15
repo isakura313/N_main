@@ -4,6 +4,8 @@
 .method_wrapper_second__quote {
     text-align: center;
     color: hsl(217, 71%, 53%);
+    animation-name: bdSlowIn;
+    animation-duration: 1s;
 }
 .method_wrapper_fourth{
     align-items: flex-start;
@@ -23,8 +25,17 @@
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
+    
 }
-
+.wrapper_method_fifth ul{
+    margin-left: 20px;
+}
+.wrapper_method_fifth{
+    padding-bottom: 7em;
+}
 .method_wrapper_first, .method_wrapper_third, .method_wrapper_fourth,.wrapper_method_fifth ul li{
     list-style-image: url("../img/line.png")
+}
+.method_first__list {
+    padding-left: 4em;
 }
