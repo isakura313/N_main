@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 
    
     $('.row_img').magnificPopup({delegate: 'a', 
@@ -10,7 +10,7 @@ $(document).ready(function(){
       
       mainClass: 'mfp-fade'
       });
-    $('.academic_information_first_column').magnificPopup({delegate: 'a', 
+    $('.academic_wrapper').magnificPopup({delegate: 'a', 
         type: 'image',
         gallery :{
             enabled: true
@@ -21,7 +21,7 @@ $(document).ready(function(){
       });
       
 
-    });
+
 
 
 
