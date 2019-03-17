@@ -45,17 +45,19 @@
 }
 
 .row_img__first {
-    text-align: center;
+    text-align: center !important;
     display: flex !important;
     flex-flow: column wrap !important;
     align-items: center;
     margin-bottom: 1.5em;
+    justify-content: center;
+    margin-top: 1em;
     /* font-size: 8px; */
 }
 
 .img_wp {
     background-size: cover;
-    background-position: top top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 300px;
     margin-bottom: 1em;
@@ -105,7 +107,7 @@
 }
 
 .fr-7 {
-    background-image: url('../img/od/lomonosov_2016.jpeg');
+    background-image: url('../img/od/lomonosov_2017_gramm.jpeg');
 }
 
 .fr-8 {
@@ -165,6 +167,9 @@
 }
 .fr-22 {
     background-image: url('../img/od/kpt_13.jpeg');
+}
+.fr-23 {
+    background-image: url('../img/kpt/kpt13.jpg');
 }
 .academic_wrapper_last{
     padding-bottom: 10em;

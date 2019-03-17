@@ -43,3 +43,9 @@
 .conts{
     margin-top: 5rem;
 }
+.conts_wrap{
+    margin-bottom: 10px;
+}
+.conts__span{
+    font-weight: 500;
+}

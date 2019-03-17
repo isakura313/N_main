@@ -10,6 +10,9 @@
     width: 70%;
 
 }
+.method_first__list li{
+    line-height: 2;
+}
 .second_nav ul li a{
     color: hsl(0, 0%, 100%);
 }
@@ -65,4 +68,8 @@
     background-position: center center;
     background-image: url("../img/useful_material_girl_with_crow.png");
     
+}
+.psy_in_our_life__h3__marg{
+    margin-top: 2em;
+    font-weight: 700;
 }
