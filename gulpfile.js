@@ -5,13 +5,21 @@ var gulp = require('gulp'),
 	rename = require('gulp-rename'),
 	del = require('del'),
 	imagemin = require('gulp-imagemin'),
-	//  cache    = require('gulp-cache'),
+	cache  = require('gulp-cache'),
 	notify = require('gulp-notify'),
 	filesize = require('filesize');
 	var Client = require('ftp');
 	var fs = require('fs');
 
-//добавить ftp
+//сделать перенос php
+function php(){
+	return gulp.src("alter_app/**/*.php")
+	.pipe(gulp.dest("../dist"));
+
+}
+gulp.task('php',function(){
+	php();
+})
 
 	function csslibs() {
 		return gulp.src('alter_app/css/**/*.css') // Выбираем файл для минификации
@@ -34,6 +42,7 @@ var gulp = require('gulp'),
 
 
 	gulp.task('default', function() {
+		php();
 		csslibs();
 		img();
 		var buildFonts = gulp.src('alter_app/fonts/**/*') // Переносим шрифты в продакшен
@@ -48,6 +57,6 @@ var gulp = require('gulp'),
 	});
 
 
-	// gulp.task('clear', function (callback) {
-	// 	return cache.clearAll();
-	// })
+	gulp.task('clear', function (callback) {
+		return cache.clearAll();
+	})

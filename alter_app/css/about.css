@@ -4,13 +4,9 @@
     margin: 40px 5em;
 }
 
-.wrapper_about_me_first{
-    
-}
 .psy_in_our_life__h3_spec{
     margin-top: 48px;
 }
-
 
 .academic_information_first_column .academic__img {
     text-align: center;
@@ -47,12 +43,12 @@
 .row_img__first {
     text-align: center !important;
     display: flex !important;
-    flex-flow: column wrap !important;
+    flex-flow: column wrap;
     align-items: center;
     margin-bottom: 1.5em;
     justify-content: center;
     margin-top: 1em;
-    /* font-size: 8px; */
+    height: 100%;
 }
 
 .img_wp {
