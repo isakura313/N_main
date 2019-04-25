@@ -4,14 +4,13 @@
 
    echo $_GET['name']." ";
 
-   // if(!empty($_GET['name']) and !empty($_GET['email'] !empty($_GET['telephone'])) 
-   // and !empty($_GET['message'])){
+   if(!empty($_GET['name']) and !empty($_GET['email'])){
       $name = trim(strip_tags($_GET['name']));
       $phone = trim(strip_tags($_GET['telephone']));
       $mail = trim(strip_tags($_GET['email']));
       $message = trim(strip_tags($_GET['message']));
  
-      mail('isakura313@gmail.com', 'Cообщение с вебсайта nchizhikova.ru', 
+      mail('n.chizhikova25@gmail.com', 'Cообщение с вебсайта nchizhikova.ru', 
       'Кто вам пишет '.$name.'<br />Телефончик: '.$phone.'<br />Его почта '.$mail.'<br />
       Сообщение пользователя '.$message,"Content-type:text/html;charset=utf-8");
  
@@ -19,8 +18,8 @@
       ближайшее время<Br> $back";
  
       exit;
-   // } 
-   // else{
-   //    echo "you fuck up";
-   // }
+   } 
+   else{
+      echo "you fuck up";
+   }
 ?>
