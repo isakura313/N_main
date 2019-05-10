@@ -1,68 +1,14 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="сайт психолога Натальи Чижиковой">
-    <meta name="keywords" content="Психология, психолог, психолог Москва, психолог по Скайпу, психология отношений, психотерапия, психотерапевт Москва, психотерапевт по Скайпу, когнитивно-поведенческая психотерапия, когнитивно-поведенческий психотерапевт, cbt-терапевт, экзистенциальный психотерапевт, тревога, депрессия, панические атаки, любовная зависимость, клинический психолог, клиническая психология, психологическое консультирование, смысл жизни, ассертивность, фобия, аэрофобия, социофобия, клаустрофобия">
-    <meta name="author" content="Наталья Чижикова">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Сайт психолога Наталья Чижиковой</title>
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js" defer></script>
-    <script src="js/mag.js" defer></script>
-    <script src="js/code.js" defer></script>
-</head>
-<body>
-    <div class="columns">
-        <div class="logo_header column">
-            <a href="index.html" class="logo_header__a">
-                <h2 class="logo_header__h2 is-size-4-desktop">Наталья Чижикова</h2>
-            </a>
-            <h1 class="logo_header__h1">КЛИНИЧЕСКИЙ ПСИХОЛОГ, ПСИХОЛОГ-КОНСУЛЬТАНТ, ПСИХОТЕРАПЕВТ</h1>
-        </div>
-    </div>
-    <div class="wrapper_nav is-size-4-desktop is-size-4-fullhd is-5-tablet is-5-mobile">
-        <nav class="navigation navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="psy_nav">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div id="psy_nav" class="navbar-menu ">
-                <a href="index.html" class="navbar-item">
-                    главная
-                </a>
-                <a href="about.html" class="navbar-item">
-                    oбо мне
-                </a>
-                <a href="psychotherapy.html" class="navbar-item">
-                    о психотерапии
-                </a>
 
-                <a href="method.html" class="navbar-item">
-                    о подходе
-                </a>
-                <a href="materials.html" class="navbar-item">
-                    полезные материалы
-                </a>
-                <a href="contacts.html" class="navbar-item">
-                    контакты
-                </a>
-            </div>
-        </nav>
-    </div>
-    
+
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/header.inc.php")
+
+?>
 
 
 
-    <!-- здесь начинается меняющийся контент -->
-    <div class="columns">
+     <!-- здесь начинается меняющийся контент -->
+     <div class="columns">
         <div class="second_nav column is-size-4-desktop is-size-8-tablet is-size-8-mobile">
             <ul>
                 <li><a href="#depression">Депрессия</a></li>
@@ -71,51 +17,57 @@
             </ul>
         </div>
     </div>
-    <div class="depression_wrapper is-size-5-desktop column is-centered" id="depression " columns>
+
+   
+
+
+    <div class="anxious_wrapper is-size-5-desktop column is-centered columns" id="depression">
         <div class="column">
-            <h3 class="psy_in_our_life__h3 is-size-3-desktop is-centered title"> Депрессия</h3>
-            <p class="psy_in_our_life__p">Все мы не раз слышали (или сами говорили): «Я сегодня в депрессии». Культура
-                научила нас, что депрессия — это что-
-                то вроде сезонной хандры. Действительно, человеку свойственно расстраиваться и переживать из-за проблем
-                на
-                работе, ссор с близкими, дефицита сна и отдыха, даже из-за погоды. Однако по завершении неприятных
-                событий
-                состояние приходит в норму.</p>
-            <p class="psy_in_our_life__p">Депрессия же устроена по-другому: её причины могут быть скрыты в глубинах
-                нашего
-                подсознания и не отражаться на
-                поверхности, а порой кажется, что их и вовсе нет. </p>
-            <p class="psy_in_our_life__p">Депрессия — словно чёрная дыра внутри человека, которая высасывает из него
-                силы
-                работать, учиться, радоваться, а
-                в конечном итоге — жить. Она сильно влияет на жизнь, затрагивая все её сферы. В отличие от хандры или
-                подавленности, депрессия только в 40% случаев проходит сама, и то не полностью, нанося огромный урон
-                психике.</p>
+            <h3 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop"> Депрессия</h3>
+            <p class="psy_in_our_life__p">
+            Все мы не раз слышали (или сами говорили): «Я сегодня в депрессии». 
+            Культура научила нас, что депрессия — это что- то вроде сезонной хандры. 
+            Действительно, человеку свойственно расстраиваться и переживать из-за проблем на работе,
+             ссор с близкими, дефицита сна и отдыха, даже из-за погоды. Однако по завершении неприятных событий состояние 
+             приходит в норму.
+            </p>
+            <p class="psy_in_our_life__p">
+            Депрессия же устроена по-другому: её причины могут быть 
+            скрыты в глубинах нашего подсознания и не отражаться на поверхности,
+             а порой кажется, что их и вовсе нет.
+            </p>
+            <p class="psy_in_our_life__p">
+            Депрессия — словно чёрная дыра внутри человека, 
+            которая высасывает из него силы работать, учиться, радоваться, а в конечном итоге — жить.
+             Она сильно влияет на жизнь, затрагивая все её сферы. В отличие от хандры или подавленности, 
+             депрессия только в 40% случаев проходит сама, и то не полностью, нанося огромный урон психике.
+            </p>
         </div>
+    </div>
+    <h5 class="psy_in_our_life__h3  is-size-3-desktop is-centered title column is-full-desktop"> Симптомы депрессии:
+    </h5>
 
-        <h5 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop">Симптомы
-            депрессии:</h5>
 
-        <div class="wrapper_symptoms_depression columns">
-
-            <ul class="method_first__list column">
-                <li>подавленность;</li>
-                <li>тоска;</li>
-                <li>тревожность;</li>
-                <li>потеря интереса к любимым занятиям;</li>
-                <li>чувство безнадёжности; </li>
-                <li>проблемы с концентрацией внимания;</li>
-                <li>неуверенность в себе;</li>
-                <li>изменение аппетита;</li>
-                <li>ощущение бесполезности или излишней вины;</li>
-                <li>сонливость или бессонница;</li>
-                <li>непоседливость или медлительность;</li>
-                <li>упадок сил;</li>
-                <li>периодические суицидальные мысли.</li>
-            </ul>
-            <div class="wrapper_symptoms_depression__image column"></div>
-        </div>
-
+    <div class="wrapper_symptoms_anxious columns is-size-5-desktop column is-centered ">
+        <ul class="method_first__list special_list column">
+        <li>подавленность;</li>
+        <li>тоска;</li>
+        <li>тревожность;</li>
+        <li>потеря интереса к любимым занятиям;</li>
+        <li>чувство безнадёжности; </li>
+        <li>проблемы с концентрацией внимания;</li>
+        <li>неуверенность в себе;</li>
+        <li>изменение аппетита;</li>
+        <li>ощущение бесполезности или излишней вины;</li>
+        <li>сонливость или бессонница;</li>
+        <li>непоседливость или медлительность;</li>
+        <li>упадок сил;</li>
+        <li>периодические суицидальные мысли.</li>
+        </ul>
+        <div class="wrapper_symptoms_depression__image column"></div>
+    </div>
+    <div class="wrapper_anx columns is-size-5-desktop column is-centered ">
+        <div class="column">
         <p class="psy_in_our_life__p">
             Если у вас есть хотя бы три симптома из вышеперечисленных и они сохраняются дольше 14 дней, вам необходимо
             обратиться к клиническому психологу, психиатру или психотерапевту.
@@ -139,9 +91,8 @@
             бойтесь
             пойти на открытый диалог и предложить помощь в обращении к специалисту.
         </p>
+        </div>
     </div>
-
-
     <div class="anxious_wrapper is-size-5-desktop column is-centered columns" id="anxious">
         <div class="column">
             <h3 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop"> Тревожные
@@ -214,6 +165,7 @@
             </p>
         </div>
     </div>
+
     <div class="wrapper_panic columns is-size-5-desktop column is-centered  " id="panic">
         <div class="column">
             <h3 class="psy_in_our_life__h3  is-size-3-desktop is-centered title column is-full-desktop"> Панические
@@ -283,69 +235,11 @@
             </p>
         </div>
     </div>
-    <!-- </div>
-    </div> -->
 
 
 
 
-<!-- здесь заканчивается меняющийся контент -->
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/footer.inc.php")
 
-
-<footer>
-    <div class="wrap_footer_head column is-full">
-        <h3 class="wrap_footer_head_h3 title has-text-centered">Форма обратной связи</h3>
-        <h5 class="wrap_footer_head_h5 subtitle has-text-centered">Здесь можно договориться о встрече или задать
-            интересующий вас вопрос</h5>
-    </div>
-    <div class="columns main_form">
-        <div class="field column is-5">
-            <form action="index.php" method="GET">
-                <div class="control has-icons-left input_first">
-                    <input name="name" class="input is-medium" type="text" placeholder="Ваше имя" maxlength="15" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
-                </div>
-                <div  class="control has-icons-left input_first">
-                    <input name="email" class="input is-medium" type="text" placeholder="Ваша почта" maxlength="30" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                </div>
-                <div class="control has-icons-left input_first">
-                    <input  name="telephone" class="input is-medium" type="text" placeholder="Ваш телефон" maxlength="15" required>
-                    <span class="icon is-small is-left ">
-                        <i class="fas fa-mobile-alt"></i>
-                    </span>
-                </div>
-        </div>
-
-        <div class="column is-5 ">
-            <textarea class="textarea is-medium" name="message" id="texta" rows="6" cols="40"
-                placeholder="Тема обращения" required></textarea>
-            <input type="submit" class="button is-primary is-pulled-right" value="Отправить">
-
-
-            </form>
-        </div>
-    </div>
-
-    <!-- </div> -->
-    <div class="footer_low_wrapper columns">
-        <div class="text_right column is-four-fifths">
-            <p> &copy; 2018 yakupoff </p>
-            <p>All Rights Reserved</p>
-        </div>
-
-        <div class="social_icons column">
-            <a href="mailto:n.chizhikova25@gmail.com"> <img src="img/footer_envelope.png" alt="письмо"></a>
-            <a href="https://t-do.ru/NataliaChizhikova"> <img src="img/footer_telegram.png" alt="telegram"></a>
-            <a href="https://www.facebook.com/profile.php?id=100001813093691"> <img
-                    src="img/footer_facebook — копия.png" alt=""></a>
-        </div>
-    </div>
-</footer>
-</body>
-
-</html>
+?>

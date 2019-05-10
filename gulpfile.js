@@ -1,6 +1,8 @@
+"use strict"
+
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
-	uglify = require('gulp-uglify'),
+	uglify = require('gulp-uglify-es').default,
 	cssnano = require('gulp-cssnano'),
 	concat = require('gulp-concat-css'),
 	rename = require('gulp-rename'),
@@ -8,9 +10,9 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	cache = require('gulp-cache'),
 	notify = require('gulp-notify'),
-	filesize = require('filesize');
-var Client = require('ftp');
-var fs = require('fs');
+	filesize = require('filesize'),
+	Client = require('ftp'),
+	fs = require('fs');
 
 sass.compiler = require('node-sass');
 
@@ -19,15 +21,17 @@ const cssFiles = [
 	'alter_app/css/**/*.css '
 ]
 
+const jsFiles = [
+	'alter_app/js/**/*.js'
+]
+
 
 function php() {
 	return gulp.src("alter_app/include/**/*.php")
 		.pipe(gulp.dest("../dist"));
 
 }
-// gulp.task('sass:watch', function () {
-// 	gulp.watch('alter_app/sass/**/*.sass', ['sass']);
-//   });
+
 
 
 gulp.task('php', php); 
@@ -37,11 +41,14 @@ gulp.task(' watchFiles',  watchFiles);
 
 function watchFiles(){
 	gulp.watch('alter_app/sass/**/*.sass', sw);
-}
-
-function watchcss(){
 	gulp.watch('alter_app/css/style.css', csslibs);
 }
+
+// function watchcss(){
+// 	gulp.watch('alter_app/css/style.css', csslibs);
+// }
+
+const watch = gulp.parallel(watchFiles, browserSync);
 
 gulp.task('watch', watchFiles);
 gulp.task('watch1', watchcss);
@@ -56,21 +63,10 @@ function sw(){
 		.pipe(gulp.dest('alter_app/css'));
 		
 }
-gulp.task('multi', function(){
-	var sass = gulp.src('alter_app/sass/**/*.sass')
-	.pipe(sass().on('error', sass.logError))
-	.pipe(gulp.dest('alter_app/css'));
-	var csslibs = gulp.src(cssFiles)
-	// .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
-	.pipe(concat('style.css'))
-	.pipe(cssnano()) // Сжимаем
-	.pipe(gulp.dest('../dist/css')) // Выгружаем в папку alter_app/css
-
-	return merge(sass, csslibs);
-})
 
 
- 
+
+
 
 function csslibs() {
 	return gulp.src(cssFiles)
@@ -79,6 +75,22 @@ function csslibs() {
 		.pipe(concat('style.css'))
 		.pipe(cssnano()) // Сжимаем
 		.pipe(gulp.dest('alter_app/css')) // Выгружаем в папку alter_app/css
+}
+
+function cssout(){
+	return gulp.src(cssFiles)
+		
+	// .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
+	.pipe(concat('style.css'))
+	.pipe(cssnano()) // Сжимаем
+	.pipe(gulp.dest('../dist/css')) // Выгружаем в папку alter_app/css
+}
+
+function jsLibs(){
+	return gulp.src(jsFiles)
+		// .pipe(concat('code.js'))
+		.pipe(uglify())
+		.pipe(gulp.dest('alter_app/js')) 
 }
 
 gulp.task('clean', function () {
@@ -97,7 +109,8 @@ gulp.task('default', function () {
 	sass();
 	// sass_change();
 	php();
-	csslibs();
+	cssout();
+	jsLibs();
 	img();
 	var buildFonts = gulp.src('alter_app/fonts/**/*') // Переносим шрифты в продакшен
 		.pipe(gulp.dest('../dist/fonts'));
@@ -105,8 +118,10 @@ gulp.task('default', function () {
 	var buildJs = gulp.src('alter_app/js/**/*') // Переносим скрипты в продакшен
 		.pipe(gulp.dest('../dist/js'));
 
-	var buildHtml = gulp.src('alter_app/*.html') // Переносим HTML в продакшен
+	var buildHtml = gulp.src('alter_app/*.php') // Переносим php в продакшен
 		.pipe(gulp.dest('../dist'));
+	var include = gulp.src('includes/*.php') // Переносим php в продакшен
+		.pipe(gulp.dest('../dist/includes'));
 
 });
 
