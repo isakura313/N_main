@@ -1,4 +1,3 @@
-
 <footer>
     <div class="wrap_footer_head column is-full">
         <h3 class="wrap_footer_head_h3  has-text-centered">Форма обратной связи</h3>
@@ -7,7 +6,7 @@
     </div>
     <div class="columns main_form">
         <div class="field column is-5">
-            <form action="index.php" method="GET">
+            <form action="includes/form.inc.php" method="GET">
                 <div class="control has-icons-left input_first">
                     <input name="name" class="input is-medium" type="text" placeholder="Ваше имя" maxlength="15" required>
                     <span class="icon is-small is-left">
