@@ -1,14 +1,22 @@
 
+<<<<<<< HEAD:alter_app/materials.php
 
 <?php
     require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/header.inc.php")
 
 ?>
+=======
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/materials.php
+
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/header.inc.php")
+
+?>
 
 
 
-    <!-- здесь начинается меняющийся контент -->
-    <div class="columns">
+     <!-- здесь начинается меняющийся контент -->
+     <div class="columns">
         <div class="second_nav column is-size-4-desktop is-size-8-tablet is-size-8-mobile">
             <ul>
                 <li><a href="#depression">Депрессия</a></li>
@@ -17,6 +25,7 @@
             </ul>
         </div>
     </div>
+<<<<<<< HEAD:alter_app/materials.php
     <div class="anxious_wrapper is-size-5-desktop column is-centered columns" id="depression">
         <div class="column">
             <h3 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop"> Депрессия</h3>
@@ -38,10 +47,12 @@
                 подавленности, депрессия только в 40% случаев проходит сама, и то не полностью, нанося огромный урон
                 психике.</p>
         </div>
+=======
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/materials.php
 
-        <h5 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop">Симптомы
-            депрессии:</h5>
+   
 
+<<<<<<< HEAD:alter_app/materials.php
         <div class="wrapper_symptoms_anxious columns is-size-5-desktop column is-centered">
 
             <ul class="method_first__list special_list column">
@@ -62,6 +73,55 @@
             <div class="wrapper_symptoms_depression__image column"></div>
         </div>
         <div class="wrapper_anx columns is-size-5-desktop column is-centered ">
+=======
+
+    <div class="anxious_wrapper is-size-5-desktop column is-centered columns" id="depression">
+        <div class="column">
+            <h3 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop"> Депрессия</h3>
+            <p class="psy_in_our_life__p">
+            Все мы не раз слышали (или сами говорили): «Я сегодня в депрессии». 
+            Культура научила нас, что депрессия — это что- то вроде сезонной хандры. 
+            Действительно, человеку свойственно расстраиваться и переживать из-за проблем на работе,
+             ссор с близкими, дефицита сна и отдыха, даже из-за погоды. Однако по завершении неприятных событий состояние 
+             приходит в норму.
+            </p>
+            <p class="psy_in_our_life__p">
+            Депрессия же устроена по-другому: её причины могут быть 
+            скрыты в глубинах нашего подсознания и не отражаться на поверхности,
+             а порой кажется, что их и вовсе нет.
+            </p>
+            <p class="psy_in_our_life__p">
+            Депрессия — словно чёрная дыра внутри человека, 
+            которая высасывает из него силы работать, учиться, радоваться, а в конечном итоге — жить.
+             Она сильно влияет на жизнь, затрагивая все её сферы. В отличие от хандры или подавленности, 
+             депрессия только в 40% случаев проходит сама, и то не полностью, нанося огромный урон психике.
+            </p>
+        </div>
+    </div>
+    <h5 class="psy_in_our_life__h3  is-size-3-desktop is-centered title column is-full-desktop"> Симптомы депрессии:
+    </h5>
+
+
+    <div class="wrapper_symptoms_anxious columns is-size-5-desktop column is-centered ">
+        <ul class="method_first__list special_list column">
+        <li>подавленность;</li>
+        <li>тоска;</li>
+        <li>тревожность;</li>
+        <li>потеря интереса к любимым занятиям;</li>
+        <li>чувство безнадёжности; </li>
+        <li>проблемы с концентрацией внимания;</li>
+        <li>неуверенность в себе;</li>
+        <li>изменение аппетита;</li>
+        <li>ощущение бесполезности или излишней вины;</li>
+        <li>сонливость или бессонница;</li>
+        <li>непоседливость или медлительность;</li>
+        <li>упадок сил;</li>
+        <li>периодические суицидальные мысли.</li>
+        </ul>
+        <div class="wrapper_symptoms_depression__image column"></div>
+    </div>
+    <div class="wrapper_anx columns is-size-5-desktop column is-centered ">
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/materials.php
         <div class="column">
         <p class="psy_in_our_life__p">
             Если у вас есть хотя бы три симптома из вышеперечисленных и они сохраняются дольше 14 дней, вам необходимо
@@ -86,10 +146,14 @@
             бойтесь
             пойти на открытый диалог и предложить помощь в обращении к специалисту.
         </p>
+        </div>
     </div>
+<<<<<<< HEAD:alter_app/materials.php
     </div>
 
 
+=======
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/materials.php
     <div class="anxious_wrapper is-size-5-desktop column is-centered columns" id="anxious">
         <div class="column">
             <h3 class="psy_in_our_life__h3 sympo is-size-3-desktop is-centered title column is-full-desktop"> Тревожные
@@ -162,6 +226,7 @@
             </p>
         </div>
     </div>
+
     <div class="wrapper_panic columns is-size-5-desktop column is-centered  " id="panic">
         <div class="column">
             <h3 class="psy_in_our_life__h3  is-size-3-desktop is-centered title column is-full-desktop"> Панические
@@ -231,13 +296,16 @@
             </p>
         </div>
     </div>
-    <!-- </div>
-    </div> -->
 
 
+<<<<<<< HEAD:alter_app/materials.php
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/footer.inc.php")
+=======
 
 
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/footer.inc.php")
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/footer.inc.php")
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/materials.php
 
 ?>

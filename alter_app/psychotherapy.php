@@ -1,3 +1,4 @@
+<<<<<<< HEAD:alter_app/psychotherapy.php
 
 <?php
     require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/header.inc.php")
@@ -6,8 +7,13 @@
 
 
 
+=======
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/psychotherapy.php
 
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/header.inc.php")
 
+?>
     <!-- здесь начинается меняющийся контент -->
     <div class="columns psy_first_wrapper is-size-5">
         <div class=" is-size-5 column">
@@ -98,6 +104,10 @@
 
 <!-- здесь заканчивается меняющийся контент -->
 <?php
+<<<<<<< HEAD:alter_app/psychotherapy.php
     require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/footer.inc.php")
+=======
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/footer.inc.php")
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/psychotherapy.php
 
 ?>

@@ -1,3 +1,5 @@
+"use strict"
+
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	uglify = require('gulp-uglify-es').default,
@@ -8,9 +10,9 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	cache = require('gulp-cache'),
 	notify = require('gulp-notify'),
-	filesize = require('filesize');
-var Client = require('ftp');
-var fs = require('fs');
+	filesize = require('filesize'),
+	Client = require('ftp'),
+	fs = require('fs');
 
 sass.compiler = require('node-sass');
 
@@ -29,9 +31,7 @@ function php() {
 		.pipe(gulp.dest("../dist"));
 
 }
-// gulp.task('sass:watch', function () {
-// 	gulp.watch('alter_app/sass/**/*.sass', ['sass']);
-//   });
+
 
 
 gulp.task('php', php); 
@@ -41,11 +41,14 @@ gulp.task(' watchFiles',  watchFiles);
 
 function watchFiles(){
 	gulp.watch('alter_app/sass/**/*.sass', sw);
-}
-
-function watchcss(){
 	gulp.watch('alter_app/css/style.css', csslibs);
 }
+
+// function watchcss(){
+// 	gulp.watch('alter_app/css/style.css', csslibs);
+// }
+
+const watch = gulp.parallel(watchFiles, browserSync);
 
 gulp.task('watch', watchFiles);
 gulp.task('watch1', watchcss);
@@ -117,7 +120,11 @@ gulp.task('default', function () {
 
 	var buildHtml = gulp.src('alter_app/*.php') // Переносим php в продакшен
 		.pipe(gulp.dest('../dist'));
+<<<<<<< HEAD
 	var include = gulp.src('alter_app/includes/*.php') // Переносим php в продакшен
+=======
+	var include = gulp.src('includes/*.php') // Переносим php в продакшен
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1
 		.pipe(gulp.dest('../dist/includes'));
 
 });

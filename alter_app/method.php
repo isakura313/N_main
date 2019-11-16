@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD:alter_app/method.php
     require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/header.inc.php")
+=======
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/header.inc.php")
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/method.php
 
 ?>
 
@@ -114,6 +118,10 @@
     </div>
 <!-- здесь заканчивается меняющийся контент -->
 <?php
+<<<<<<< HEAD:alter_app/method.php
     require_once($_SERVER['DOCUMENT_ROOT']. "/alter_app/includes/footer.inc.php")
+=======
+    require_once($_SERVER['DOCUMENT_ROOT']. "/includes/footer.inc.php")
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:alter_app/method.php
 
 ?>

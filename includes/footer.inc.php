@@ -6,7 +6,11 @@
     </div>
     <div class="columns main_form">
         <div class="field column is-5">
+<<<<<<< HEAD:alter_app/includes/footer.inc.php
             <form action="includes/form.inc.php" method="GET">
+=======
+            <form action="form.inc.php" method="GET">
+>>>>>>> 247df6e2c5c1e39e1c28a364eea5b1aae4a783a1:includes/footer.inc.php
                 <div class="control has-icons-left input_first">
                     <input name="name" class="input is-medium" type="text" placeholder="Ваше имя" maxlength="15" required>
                     <span class="icon is-small is-left">
